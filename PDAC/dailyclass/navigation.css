@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+}
+
+
+.container{
+position: relative;
+width: 70px;
+height: 70px;
+background-color:rgb(17, 17, 17);
+border-radius: 10px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+transition-delay:0.8s ;
+
+}
+.container.active{
+    width: 240px;
+
+    height: 240px;
+    transition-delay: 0s;
+
+}
+.container span{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: translate(calc(12px * var(--x)),calc(12px * var(--y)));
+    transition: transform 0.5s, width 0.5s,height 0.5s, background 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.container.active span{
+    width: 45px;
+    height: 45px;
+    background-color:rgb(255, 255, 255);
+    transform: translate(calc(60px * var(--x)),calc(60px * var(--y)));
+    box-shadow:0 0 25px rgb(243, 240, 240)  ;
+}
+
+.container.active span ion-icon{
+transition: 0.5s;
+font-size: 0em;
+
+}
+.container.active span ion-icon{
+      /* display:block; 
+     color: transparent; */
+    font-size: 1.35em;
+    color:silver;
+}
+.container.active span:hover ion-icon{
+    color: rgb(14, 13, 13);
+font-size: 50px;
+
+}
+.container.active span:hover{
+    background:rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    transition-delay:0.2s ;
+}

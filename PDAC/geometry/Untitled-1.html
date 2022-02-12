@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="time" class="time">today time</h1>
+    </div>
+    <script>
+      let a = new Date();
+      let time =
+        a.getHours() +
+        ":" +
+        a.getMinutes() +
+        ":" +
+        a.getSeconds() +
+        " " +
+        a.getday();
+      let prvHTML = document.getElementById(time).innerHTML;
+      setInterval(() => {
+        document.getElementById(time).innerHTML = prvHTML + time;
+        console.log("it");
+      }, 1000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <div class="container">
+        <span style="--i:0;--x:0;--y:0"><ion-icon name="camera"></ion-icon></span>
+        <span style="--i:1;--x:1;--y:0"><ion-icon name="alarm"></ion-icon></span>
+        <span style="--i:2;--x:0;--y:-1"><ion-icon name="airplane"></ion-icon></span>
+        <span style="--i:3;--x:0;--y:1"><ion-icon name="battery-charging"></ion-icon></span>
+        <span style="--i:4;--x:1;--y:1"><ion-icon name="brush"></ion-icon></span>
+        <span style="--i:5;--x:-1;--y:-1"><ion-icon name="home"></ion-icon></span>
+        <span style="--i:6;--x:-1;--y:0"><ion-icon name="settings"></ion-icon></span>
+        <span style="--i:7;--x:-1;--y:1"><ion-icon name="contact"></ion-icon></span>
+        <span style="--i:8;--x:1;--y:-1"><ion-icon name="bluetooth"></ion-icon></span>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script>
+
+        let container=document.querySelector('.container');
+        container.onclick= function(){
+            container.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.pitem{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+    background-color: lightcyan;
+}
+.plist{
+    margin: 10px;
+    padding: 10px;
+    background-color: purple;
+    
+
+}
+

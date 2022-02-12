@@ -1,0 +1,39 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+li {
+  float: left;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(45, 211, 147);
+  border-radius: 60%;
+}
+.navimg {
+  display: inline-block;
+  
+}
+ul li {
+  padding: 0px 30px;
+}
+.Babu{
+  background-color: rgb(0, 0, 0);
+  
+}
+.z{
+  display: flex;
+  position: relative;
+  padding: auto;
+}
