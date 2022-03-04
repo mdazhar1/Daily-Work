@@ -1,16 +1,16 @@
-import React from 'react';
+// import React from 'react';
 
-const ObjectUseState = () => {
-    return (
-        const [details, setDetails] = useState({ name: "Maaz", age: 24, add: "Nanded" })
+// const ObjectUseState = () => {
+//     return (
+//         const Maaz=[details, setDetails] = useState({ name: "Maaz", age: 24, add: "Nanded" })
 
-    const getDetails = ((e) => {
-        setDetails(...details, e.target.value)
-    })
-        < div >
+//     const getDetails = ((e) => {
+//         setDetails(...details, e.target.value)
+//     })
+//         < div >
             
-        </div >
-    );
-};
+//         </div >
+//     );
+// };
 
-export default ObjectUseState;
+// export default ObjectUseState;

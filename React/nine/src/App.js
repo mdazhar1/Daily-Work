@@ -1,6 +1,6 @@
 
 import './App.css';
-import Landing from './Components/Landing';
+import Landing from './Components/Z-Landing/Landing';
 
 function App() {
   return (

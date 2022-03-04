@@ -1,0 +1,19 @@
+.pdiv{
+    height: 470px;
+    width: 340px;
+    margin: 5px;
+    float: left;
+    border: 8px solid black;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    margin-left: 30px;
+    font-size: larger;
+    font-style: italic;
+    border-radius: 10%;
+}
+.pdiv img{
+    height: 360px;
+    width: 323px;
+    padding-top: 0px;
+    border-radius: 9%;
+}

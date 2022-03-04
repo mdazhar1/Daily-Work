@@ -29,7 +29,21 @@
 
 
 
-const arr=[50,35,14,62,47,85,96,5,47]
+// const arr=[50,35,14,62,47,85,96,5,47]
 
-const result=arr.reduce((acc,cur)=>Math.max(acc,cur))
-console.log(result)
+// const result=arr.reduce((acc,cur)=>Math.max(acc,cur))
+// console.log(result)
+
+
+// const b="My name is Mujahed";
+// const result=b.split(" ").reduce((acc,cur)=>acc.length>cur.length ? acc:cur)
+// console.log(result)
+
+
+
+const Maaz= "Annyeonghaseyo";
+const F=Maaz.split("");
+const obj={};
+F.forEach((elem)=>{
+    obj[elem]=obj[elem]?obj[elem]+1:1})
+console.log(obj);

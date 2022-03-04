@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react';  
 
 const Yash = (prpos) => {
     
     return (
-        <div>
+        <div> 
             
             <button onClick={prpos.increase}>Increase</button>
             <button onClick={prpos.decrease}>Decrease</button>

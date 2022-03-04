@@ -4,7 +4,7 @@ const initialState={
             "title": "SAR",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZRa72qlaG6PwspOCyNWcw1hOAJPUNLzE2g&usqp=CAU",
             "description": "Na meri aankh na qalb o jigar me rahta hai--- wo dard ban ke mere aadhe sir me rahta hai",
-        },
+        }, 
         {
             "title": "Inteqal",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdHBA7moQGNQZ6eOJTR-q-jOn_z5MzwM3Cjd4DrqM94oVqDcbRivcwBoCZcUYd2XKI8Y&usqp=CAU",
@@ -47,7 +47,7 @@ const initialState={
             "title": "Naseeb",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh64KlHWTrzN42_B_TcjDyW9kGius24m6dWw&usqp=CAU",
             "description": " ھم وہ سیاہ نصیب ھیں طارق کہ شھر میں----  کھولیں دکاں کفن کی تو سب مرنا چھوڑ دیں ",
-        },
+        }
     ]
 }
 export const bodyReducer=(state=initialState,action)=>{

@@ -1,14 +1,15 @@
 
 import './App.css';
-import Home from './Components/Hooks/useCallback/PerformanceProblem/Home';
-// import UserefFocus from './Components/Hooks/useRef/UserefFocus';
+// import ObjectInUseState from "./Components/ObjectInUseState";
+// import Home from './Components/Hooks/useCallback/PerformanceProblem/Home';
+import UserefFocus from './Components/Hooks/useRef/UserefFocus';
 // import UserefMutableData from './Components/Hooks/useRef/UserefMutableData';
 // import UserefTimer from './Components/Hooks/useRef/UserefTimer';
 // import Landing from './Components/Routing/Landing';
-// import ObjectInUseState from './Components/ObjectInUseState'
+
 // import ArrayUseState from './Components/ArrayUseState';
 // import DidUpdate from './Components/UseEffect/DidUpdate';
-// import CounterWithReducer from './Components/useReducer/CounterWithReducer';
+import CounterWithReducer from './Components/useReducer/CounterWithReducer';
 // import Udate from './Components/UseEffect/Udate';
 // import TestUseReducer from './Components/useReducer/TestUseReducer';
 // import ArrayUseState2 from "./Components/ArrayUseState2";
@@ -19,18 +20,18 @@ import Home from './Components/Hooks/useCallback/PerformanceProblem/Home';
 function App() {
   return (
     <div className="App">
-      {/* <ObjectInUseState/> */}
+     {/* <ObjectInUseState/> */}
       {/* <ArrayUseState /> */}
       {/* <DidUpdate/> */}
-      {/* <CounterWithReducer/> */}
+      <CounterWithReducer/>
       {/* <Udate /> */}
       {/* <Landing /> */}
       {/* <TestUseReducer/> */}
       {/* <ArrayUseState2/> */}
-      {/* <UserefFocus/> */}
+      {/* // <UserefFocus/> */}
       {/* <UserefTimer/> */}
       {/* <UserefMutableData/> */}
-      <Home/>
+      {/* <Home/> */}
     </div>
   );
 }

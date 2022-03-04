@@ -6,7 +6,7 @@ const Maaz = () => {
     const increase=()=>{
         setCount(count+1)
     }
-    const decrease=()=>{
+    const decrease=()=>{ 
         setCount(count-1)
     }
 

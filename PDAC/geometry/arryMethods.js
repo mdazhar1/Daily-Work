@@ -1,7 +1,7 @@
-// const arr = [1,5,8,7,6,7,8,9,6,6];
+const arr = [1,5,8,7,6,7,8,9,6,6];
 
-// const result = arr.filter((Maaz)=> Maaz % 2===0)
-// console.log(result);     
+const result = arr.filter((Maaz)=> Maaz % 2===0)
+console.log(result);     
 // const result = arr.filter((Maaz)=> Maaz % 2 !==0);
 // console.log(result);
 
@@ -25,22 +25,22 @@
 
 // const arr=[1,5,8,7,6,7,8,9,6,6];
 
-// const reduced=arr.reduce((acc,cur)=>acc +cur);
+// const reduced=arr.reduce((acc,cur)=>acc + cur);
 // console.log(reduced);
 
 
 
-const products=[
-    {title: "Maaz", size: 7, color: "black"},
-    {title: "Baigan", size: 8, color: "white"},
-    {title: "Mirchi", size: 9, color: "black"},
-    {title: "Shampoo", size: 8, color: "red"},
-    {title: "Babu", size: 9, color: "blue"},
-    {title: "Shona", size: 7, color: "black"},
-    {title: "Mona", size: 10, color: "white"},
-    {title: "Kalu", size: 9, color: "pink"},
-    {title: "kutta", size: 6, color: "black"},
-];
+// const products=[
+//     {title: "Maaz", size: 7, color: "black"},
+//     {title: "Baigan", size: 8, color: "white"},
+//     {title: "Mirchi", size: 9, color: "black"},
+//     {title: "Shampoo", size: 8, color: "red"},
+//     {title: "Babu", size: 9, color: "blue"},
+//     {title: "Shona", size: 7, color: "black"},
+//     {title: "Mona", size: 10, color: "white"},
+//     {title: "Kalu", size: 9, color: "pink"},
+//     {title: "kutta", size: 6, color: "black"},
+// ];
 // const filtered=products.filter((item)=> item.color === "black");
 // console.log(filtered);
 // const filtered=products.filter((item)=> item.size >8 );
@@ -75,4 +75,9 @@ const products=[
 // const arr=[12,13,1,5,70,-1];
 // const result= arr.every((Maaz)=> Maaz>=70)
 // console.log(result);
+
+// const arr=[{title: "Maaz", size: 7, color: "black"},
+//             {title: "Baigan", size: 8, color: "white"}]
+// const result=arr.filter((item)=>item.color === "white")
+// console.log(result)
 

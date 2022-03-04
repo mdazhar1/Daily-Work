@@ -12,11 +12,24 @@
 
 
 
-let str="";
-for(let i=1; i<=100; i++){
-    if(i%15===0) str=str+"FizzBuzz";
-    else if (i%3===0) str=str+"Fizz";
-    else if(i%5===0) str=str+"Buzz"
-        else str=str+ " " +i;
+// let str="";
+// for(let i=1; i<=100; i++){
+//     if(i%15===0) str=str+"FizzBuzz";
+//     else if (i%3===0) str=str+"Fizz";
+//     else if(i%5===0) str=str+"Buzz"
+//         else str=str+ " " +i;
+//     }
+//     console.log(str);
+
+
+    let M="";
+    for(let i=1; i<=100; i++){
+        if (i%15 === 0) M= M + "FizzBuzz";
+        else if (i % 3 === 0) M = M + "Fizz";
+        else if (i % 5 === 0) M = M + "Buzz";
+        else M = M + " " + i
     }
-    console.log(str);
+    console.log(M);
+
+
+

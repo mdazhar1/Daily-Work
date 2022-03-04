@@ -16,5 +16,5 @@ const BodyReducer = () => {
     );
 };
 
-export default BodyReducer;
+export default BodyReducer; 
 

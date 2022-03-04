@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  {MaazStore } from './Components/Z-Store/MaazStore.js';
+import { Provider } from 'react-redux';
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store={MaazStore()}>
     <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

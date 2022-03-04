@@ -3,10 +3,10 @@ import { useState } from 'react';
 import axios from 'axios';
 
 const postData = () => {
-    const [userId, setUserId] = useState();
-    const [title, setTitle] = useState();
-    const [body, setBody] = useState();
-
+const [userId, setUserId] = useState();
+const [title, setTitle] = useState();
+const [body, setBody] = useState(); 
+    
     const postDetails = () => {
         const request = { userId, title, body };
         axios.post("http://localhost:3000/data", request)

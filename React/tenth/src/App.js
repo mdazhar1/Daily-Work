@@ -2,9 +2,10 @@
 // import PostData from "./API2/PostData";
 // import FetchData from './API2/FetchData';
 import './App.css';
+import { OurMenters } from "./State/Redux/Mentors";
 // import FetchDataFromRedux from './State/Redux/FetchDataFromRedux';
-import NavReducer from './State/Redux/NavReducer';
-import BodyReducer from './State/Redux/BodyReducer';
+// import NavReducer from './State/Redux/NavReducer';
+// import BodyReducer from './State/Redux/BodyReducer';
 
 // import ProductList from './Components/Shopping/ProductList';
 // import {ClassCounter} from "./Components/ClassCounter"
@@ -18,9 +19,10 @@ function App() {
      {/* <FethingDataFromApi/> */}
     {/* //  <PostData/> */}
      {/* <FetchData/> */}
+     <OurMenters/>
      {/* <FetchDataFromRedux/> */}
-     <NavReducer/>
-     <BodyReducer/>
+     {/* <NavReducer/> */}
+     {/* <BodyReducer/> */}
     </div>
   );
 }

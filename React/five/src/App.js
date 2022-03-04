@@ -1,13 +1,11 @@
 
 import './App.css';
-import Home from './component/D-Home/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Landing from './Components/Landing/Landing';
 
 function App() {
   return (
     <div className="App">
-
-      <Home />
+      <Landing/>
     </div>
   );
 }
